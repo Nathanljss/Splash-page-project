@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  border: solid;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.contact,
+.address {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin: 200px;
+}
